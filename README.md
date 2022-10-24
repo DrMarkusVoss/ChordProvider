@@ -52,6 +52,8 @@ Then just execute the Python program:
 
 
 ### User's Guide
+After you started ChordProvider by putting the command above into the command line, you will be asked 
+to do the following:
 - select the port of your Input MIDI device (e.g. your Keyboard or Synthesizer)
    where you are going to play the base note
 - select the port of your Output MIDI device, where the complementary notes shall
