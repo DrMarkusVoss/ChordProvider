@@ -20,9 +20,10 @@ other instruments to play.
 
 Here ChordProvider is the solution. With ChordProvider you only need one Layer for complete chords. You play
 the base note, the base note is received on your computer via USB MIDI, the computer calculates the complementary
-2 notes to create a triad chord. For that, of course, you need to tell your computer which key you want to 
+2 notes to create a triad chord and sends them right back to your Synthesizer via USB-MIDI to be played directly.
+The latency is negligible. For that, of course, you need to tell your computer which key you want to 
 play in, same as you would do on the Wavestate in the configuration of the Pitch Lane. Furthermore, you need
-to restrict the Keyzone that shall be used, so that the computer does not make chords out of your lead notes.
+to restrict the Keyzone that shall be used, so that the computer does not make chords out of your lead notes. 
 
 ### Installation
 #### System setup
